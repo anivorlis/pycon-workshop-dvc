@@ -20,7 +20,7 @@ def generate_data(
         seed: Random seed for reproducibility
         output_path: Path to save the CSV file
     """
-    np.random.seed(seed)
+    # np.random.seed(seed)
 
     # Generate x values uniformly in [-3, 3]
     x = np.linspace(-3, 3, num_points)
